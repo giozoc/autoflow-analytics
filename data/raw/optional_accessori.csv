@@ -1,0 +1,13 @@
+id,codice,nome,descrizione,prezzo
+1,OPT-NAV,Navigatore,Optional: Navigatore,900
+2,OPT-CAM,Telecamera posteriore,Optional: Telecamera posteriore,450
+3,OPT-CRU,Cruise control adattivo,Optional: Cruise control adattivo,700
+4,OPT-SED,Sedili riscaldati,Optional: Sedili riscaldati,400
+5,OPT-TET,Tetto panoramico,Optional: Tetto panoramico,1200
+6,OPT-CER,Cerchi in lega 18 pollici,Optional: Cerchi in lega 18 pollici,800
+7,OPT-GAN,Gancio traino,Optional: Gancio traino,600
+8,OPT-VER,Vernice metallizzata,Optional: Vernice metallizzata,650
+9,OPT-AUD,Impianto audio premium,Optional: Impianto audio premium,750
+10,OPT-KEY,Accesso keyless,Optional: Accesso keyless,350
+11,OPT-PRK,Parking assist,Optional: Parking assist,850
+12,OPT-GAR,Estensione garanzia,Optional: Estensione garanzia,990

@@ -1,0 +1,5 @@
+strategia,spearman,precision_at_3
+Score completo (RF),0.574,0.778
+Ablazione (D = MA3),0.552,0.722
+B1: vendite ultimi 3 mesi,0.507,0.722
+B2: stock più basso,0.416,0.667

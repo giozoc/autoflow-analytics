@@ -1,0 +1,55 @@
+seed: 42
+
+periodo:
+  data_inizio: "2024-09-01"
+  data_fine: "2026-08-31"
+
+concessionaria:
+  num_addetti: 6
+  prob_cliente_esistente: 0.30
+  prob_proposta_da_config: 0.60
+  prob_bozza: 0.05
+  prob_addetto_assegnato: 0.85
+  fattore_senza_addetto: 0.70
+  giorni_validita_proposta: 30
+  sconto_max: 0.08
+
+stagionalita: [0.90, 0.95, 1.25, 1.05, 1.05, 1.10, 1.00, 0.55, 1.15, 1.00, 0.95, 1.05]
+
+riassortimento:
+  moltiplicatore_scorta: 1.5
+  scorta_sicurezza: 2
+  rumore_ordine_sigma: 0.30
+  lead_time_min_giorni: 15
+  lead_time_max_giorni: 35
+  mesi_stock_iniziale: 1.5
+
+catalogo:
+  - {marca: Fiat, modello: Panda, alimentazione: IBRIDA, segmento: CITY, cambio: MANUALE, prezzo: 17500, config_mese: 24, trend_mensile: 0.000, conv: 0.50}
+  - {marca: Fiat, modello: "500e", alimentazione: ELETTRICA, segmento: CITY, cambio: AUTOMATICO, prezzo: 29900, config_mese: 10, trend_mensile: 0.020, conv: 0.35}
+  - {marca: Toyota, modello: Yaris, alimentazione: IBRIDA, segmento: CITY, cambio: AUTOMATICO, prezzo: 23900, config_mese: 20, trend_mensile: 0.010, conv: 0.48}
+  - {marca: Renault, modello: Clio, alimentazione: BENZINA, segmento: CITY, cambio: MANUALE, prezzo: 19900, config_mese: 17, trend_mensile: -0.005, conv: 0.45}
+  - {marca: Volkswagen, modello: Golf, alimentazione: BENZINA, segmento: BERLINA, cambio: MANUALE, prezzo: 31500, config_mese: 14, trend_mensile: 0.000, conv: 0.40}
+  - {marca: Volkswagen, modello: Golf, alimentazione: DIESEL, segmento: BERLINA, cambio: MANUALE, prezzo: 33500, config_mese: 11, trend_mensile: -0.020, conv: 0.38}
+  - {marca: Ford, modello: Puma, alimentazione: IBRIDA, segmento: SUV, cambio: MANUALE, prezzo: 27500, config_mese: 16, trend_mensile: 0.010, conv: 0.45}
+  - {marca: Jeep, modello: Renegade, alimentazione: DIESEL, segmento: SUV, cambio: MANUALE, prezzo: 30500, config_mese: 11, trend_mensile: -0.015, conv: 0.40}
+  - {marca: Peugeot, modello: "3008", alimentazione: IBRIDA, segmento: SUV, cambio: AUTOMATICO, prezzo: 38900, config_mese: 12, trend_mensile: 0.012, conv: 0.38}
+  - {marca: Dacia, modello: Duster, alimentazione: GPL, segmento: SUV, cambio: MANUALE, prezzo: 22900, config_mese: 20, trend_mensile: 0.008, conv: 0.52}
+  - {marca: "Alfa Romeo", modello: Tonale, alimentazione: IBRIDA, segmento: SUV, cambio: AUTOMATICO, prezzo: 41500, config_mese: 9, trend_mensile: 0.005, conv: 0.33}
+  - {marca: Tesla, modello: "Model 3", alimentazione: ELETTRICA, segmento: BERLINA, cambio: AUTOMATICO, prezzo: 42900, config_mese: 9, trend_mensile: 0.015, conv: 0.30}
+
+colori: [Bianco, Nero, Grigio, Blu, Rosso, Argento]
+
+optional:
+  - {codice: OPT-NAV, nome: "Navigatore", prezzo: 900, prob: 0.55, bonus_suv: 1.0}
+  - {codice: OPT-CAM, nome: "Telecamera posteriore", prezzo: 450, prob: 0.50, bonus_suv: 1.2}
+  - {codice: OPT-CRU, nome: "Cruise control adattivo", prezzo: 700, prob: 0.35, bonus_suv: 1.1}
+  - {codice: OPT-SED, nome: "Sedili riscaldati", prezzo: 400, prob: 0.25, bonus_suv: 1.0}
+  - {codice: OPT-TET, nome: "Tetto panoramico", prezzo: 1200, prob: 0.15, bonus_suv: 1.5}
+  - {codice: OPT-CER, nome: "Cerchi in lega 18 pollici", prezzo: 800, prob: 0.40, bonus_suv: 1.3}
+  - {codice: OPT-GAN, nome: "Gancio traino", prezzo: 600, prob: 0.08, bonus_suv: 2.5}
+  - {codice: OPT-VER, nome: "Vernice metallizzata", prezzo: 650, prob: 0.45, bonus_suv: 1.0}
+  - {codice: OPT-AUD, nome: "Impianto audio premium", prezzo: 750, prob: 0.20, bonus_suv: 1.0}
+  - {codice: OPT-KEY, nome: "Accesso keyless", prezzo: 350, prob: 0.30, bonus_suv: 1.1}
+  - {codice: OPT-PRK, nome: "Parking assist", prezzo: 850, prob: 0.22, bonus_suv: 1.2}
+  - {codice: OPT-GAR, nome: "Estensione garanzia", prezzo: 990, prob: 0.18, bonus_suv: 1.0}

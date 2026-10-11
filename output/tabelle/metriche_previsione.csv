@@ -1,0 +1,4 @@
+modello,MAE_vendite,RMSE_vendite,MAE_domanda_reale,RMSE_domanda_reale
+Baseline_MA3,1.597,2.063,1.986,2.75
+Ridge,1.338,1.657,1.887,2.552
+RandomForest,1.281,1.605,1.857,2.598

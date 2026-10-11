@@ -1,0 +1,13 @@
+posizione,chiave_modello,D,stock,K,G,score,suggerimento
+1,Toyota Yaris IBRIDA,2.84,3,1.06,12.0,0.82,Riassortire
+2,Renault Clio BENZINA,2.87,5,1.74,13.8,0.77,Monitorare
+3,Ford Puma IBRIDA,2.84,7,2.46,15.43,0.61,Monitorare
+4,Dacia Duster GPL,1.58,2,1.26,4.0,0.6,Monitorare
+5,Fiat Panda IBRIDA,3.36,11,3.0,11.18,0.59,Non acquistare
+6,Peugeot 3008 IBRIDA,2.14,3,1.4,84.33,0.52,Monitorare
+7,Tesla Model 3 ELETTRICA,1.31,2,1.53,3.5,0.45,Monitorare
+8,Fiat 500e ELETTRICA,1.91,3,1.57,56.67,0.41,Monitorare
+9,Jeep Renegade DIESEL,1.44,4,2.77,93.75,0.19,Non acquistare
+10,Alfa Romeo Tonale IBRIDA,1.42,6,3.0,31.67,0.18,Non acquistare
+11,Volkswagen Golf DIESEL,1.33,4,3.0,52.5,0.18,Non acquistare
+12,Volkswagen Golf BENZINA,1.66,5,3.0,64.4,0.17,Non acquistare
